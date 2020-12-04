@@ -94,7 +94,6 @@ def perfectSqr(n):
         key     = i
         while stop == True and key != 0:
             for j in dict[key]:
-                print(j)
                 if j[0] != 0 and j[1] != 0 and math.sqrt(j[0]) - math.floor(math.sqrt(j[0])) == 0 and math.sqrt(j[1]) - math.floor(math.sqrt(j[1])) == 0:
                     counter += 2
                     stop     = False
@@ -109,13 +108,12 @@ def perfectSqr(n):
     
     return minimum
 
-#print(minFallingPaht([[4,3,2,1],[4,3,1,3],[3,1,7,8],[1,2,3,5]]))
-
-#print(arithmeticSlices([1,2,3,4,5,9,10,12,14]))
-
-#a = [[1,5], [2,3], [3,4], [4, 5], [6,7], [8,9], [10,11]]
-#print(maximumPairOfChains(a))
-
-#print(palidromicSubstring("abaab"))
-
-print(perfectSqr(12))
+print("Question 1 Solution")
+print(minFallingPaht([[4,3,2,1],[4,3,1,3],[3,1,7,8],[1,2,3,5]]))
+print("Question 2 Solution")
+print(arithmeticSlices([1,2,3,4,5,9,10,12,14]))
+a = [[1,5], [2,3], [3,4], [4, 5], [6,7], [8,9], [10,11]]
+print("Question 3 Solution")
+print(maximumPairOfChains(a))
+print("Question 4 Solution")
+print(palidromicSubstring("abaab"))
