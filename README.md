@@ -1,0 +1,3 @@
+Question Minimum Falling Path Sum:
+a.	To solve this problem recursively, I broke the problem down into all the possible minimum values that can be produced. I iterate through each index in the array, and determine the minimum value between the current index, current index + index above, current index + index above and behind, and the current index + index above and in front.  
+b.	I stored the minimum value provided in each iteration in a 2d array that is the same size as the given array. Future iterations can then determine the minimum value of the sum of the current index + previous minimum value.
